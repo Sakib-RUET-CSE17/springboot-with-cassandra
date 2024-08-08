@@ -42,7 +42,7 @@ public class Book {
     @CassandraType(type = Name.LIST, typeArguments = Name.TEXT)
     private List<String> authorNames;
 
-    @Column("author_id")
+    @Column("author_ids")
     @CassandraType(type = Name.LIST, typeArguments = Name.TEXT)
     private List<String> authorIds;
 
