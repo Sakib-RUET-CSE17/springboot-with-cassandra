@@ -20,7 +20,9 @@ spring:
         connect-timeout: 10s
         init-query-timeout: 10s
 
-
+datadump.location:
+    author: /home/bKash.com/sakib.vivasoft/myCode/bkash/betterreads/betterreads-webapp/test-authors.txt
+    works: /home/bKash.com/sakib.vivasoft/myCode/bkash/betterreads/betterreads-webapp/test-works.txt
 
 datastax.astra:
     secure-connect-bundle: secure-connect.zip
