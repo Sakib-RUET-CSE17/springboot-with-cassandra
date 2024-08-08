@@ -50,7 +50,7 @@ public class BetterReadsApp {
     private void initAuthors() {
         Path path = Paths.get(authorDumpLocation);
         try (Stream<String> lines = Files.lines(path)) {
-            lines.limit(10).forEach(line -> {
+            lines.forEach(line -> {
                 // Read & parse the line
                 String jsonString = line.substring(line.indexOf("{"));
                 try {
